@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int a=2,b=4,sum,sub,mul,div,mod;
+    switch('1')
+    {
+        case'1':
+        sum=a+b;
+        printf("sum:%d",sum);
+        break;
+        case'2':
+        sub=a-b;
+        printf("sub:%d",sub);
+        break;
+        case'3':
+        mul=a*b;
+        printf("mul: %d",mul);
+        break;
+        case'4':
+        div=a/b;
+        printf("div: %d",div);
+        break;
+        case'5':
+        mod=a%b;
+        printf("mod:%d",mod);
+        break;
+        default:
+        printf("try again");
+        return 0;
+    }
+}
+        
+    
